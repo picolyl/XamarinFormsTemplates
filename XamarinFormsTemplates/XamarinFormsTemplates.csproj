@@ -76,7 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="MyTemplate.vstemplate" />
+    <VSTemplate Include="MyTemplate.vstemplate">
+      <OutputSubPath>Cross-Platform</OutputSubPath>
+    </VSTemplate>
   </ItemGroup>
   <ItemGroup>
     <None Include="XFApp.Droid\MainActivity.cs" />
