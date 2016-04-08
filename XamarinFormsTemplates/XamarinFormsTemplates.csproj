@@ -76,7 +76,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <VSTemplate Include="MyTemplate.vstemplate">
+    <VSTemplate Include="XamarinFormsTemplate-full.vstemplate">
+      <OutputSubPath>Cross-Platform</OutputSubPath>
+    </VSTemplate>
+    <VSTemplate Include="XamarinFormsTemplate-normal.vstemplate">
+      <OutputSubPath>Cross-Platform</OutputSubPath>
+    </VSTemplate>
+    <VSTemplate Include="XamarinFormsTemplate-mini.vstemplate">
       <OutputSubPath>Cross-Platform</OutputSubPath>
     </VSTemplate>
   </ItemGroup>
