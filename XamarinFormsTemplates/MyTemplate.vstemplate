@@ -9,7 +9,7 @@
     <DefaultName>XFApp</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
-  <TemplateContent PreferedSolutionConfiguration="Debug|Any CPU">
+  <TemplateContent PreferedSolutionConfiguration="Debug|x86">
     <ProjectCollection>
         <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
           XFApp\MyTemplate.vstemplate
