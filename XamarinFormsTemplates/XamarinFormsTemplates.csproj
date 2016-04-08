@@ -171,27 +171,15 @@
     <None Include="XFApp\XFApp.csproj" />
     <None Include="XFApp\__TemplateIcon.ico" />
     <None Include="__TemplateIcon.ico" />
-    <None Include="XFApp.Droid\packages.config" />
     <None Include="XFApp.iOS\iTunesArtwork" />
     <None Include="XFApp.iOS\iTunesArtwork%402x" />
-    <None Include="XFApp.iOS\packages.config" />
     <None Include="XFApp.iOS\Resources\LaunchScreen.storyboard" />
     <None Include="XFApp.UWP\Application_TemporaryKey.pfx" />
     <None Include="XFApp.UWP\Package.appxmanifest" />
     <None Include="XFApp.UWP\project.json" />
     <None Include="XFApp.Windows\Application_TemporaryKey.pfx" />
     <None Include="XFApp.Windows\Package.appxmanifest" />
-    <None Include="XFApp.Windows\packages.config" />
     <None Include="XFApp.WinPhone\Package.appxmanifest" />
-    <None Include="XFApp.WinPhone\packages.config" />
-    <None Include="XFApp\GettingStarted.Xamarin" />
-    <None Include="XFApp\packages.config" />
-    <None Include="XFApp.UWP\App.xaml" />
-    <None Include="XFApp.UWP\MainPage.xaml" />
-    <None Include="XFApp.Windows\App.xaml" />
-    <None Include="XFApp.Windows\MainPage.xaml" />
-    <None Include="XFApp.WinPhone\App.xaml" />
-    <None Include="XFApp.WinPhone\MainPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

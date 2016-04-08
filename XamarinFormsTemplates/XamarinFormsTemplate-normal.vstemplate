@@ -2,7 +2,7 @@
   xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
     <Name>Xamarin.Forms (UWP/Android/iOS)</Name>
-    <Description>Xamarin.Forms 2.1.0.6529 Template</Description>
+    <Description>Xamarin.Forms Template</Description>
     <ProjectType>CSharp</ProjectType>
     <Icon>__TemplateIcon.ico</Icon>
     <CreateNewFolder>true</CreateNewFolder>
@@ -11,18 +11,33 @@
   </TemplateData>
   <TemplateContent PreferedSolutionConfiguration="Debug|x86">
     <ProjectCollection>
-        <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
-          XFApp\MyTemplate.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
-          XFApp.Droid\MyTemplate.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
-          XFApp.iOS\MyTemplate.vstemplate
-        </ProjectTemplateLink>
-        <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
-          XFApp.UWP\MyTemplate.vstemplate
-        </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
+        XFApp\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
+        XFApp.Droid\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
+        XFApp.iOS\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$safeprojectname$.UWP" CopyParameters="true">
+        XFApp.UWP\MyTemplate.vstemplate
+      </ProjectTemplateLink>
     </ProjectCollection>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>Xamarin.VisualStudio.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756</Assembly>
+    <FullClassName>Xamarin.VisualStudio.TemplateWizards.EnsureRegistryWizard</FullClassName>
+  </WizardExtension>
+  <WizardExtension>
+    <Assembly>Xamarin.VisualStudio.TemplateWizards, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756</Assembly>
+    <FullClassName>Xamarin.VisualStudio.TemplateWizards.FixBuildConfigurationWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <EnsureRegistryWizard>
+      <Key>_Config\Projects\{786C830F-07A1-408B-BD7F-6EE04809D6DB}</Key>
+      <ErrorMessageTitle>Portable Library Tools 2 required</ErrorMessageTitle>
+      <ErrorMessage>To create Xamarin Forms projects please install Portable Library Tools 2.</ErrorMessage>
+    </EnsureRegistryWizard>
+  </WizardData>
 </VSTemplate>
